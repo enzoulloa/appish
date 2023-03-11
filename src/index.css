@@ -8,3 +8,39 @@
     font-weight: 500;
   }
 }
+
+@font-face {
+  font-family: "Thicccboi";
+  src: url("/fonts/Thicccboi-ExtraBold.woff2") format("woff2"),
+    url("/fonts/Thicccboi-ExtraBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thicccboi";
+  src: url("/fonts/Thicccboi-Regular.woff2") format("woff2"),
+    url("/fonts/Thicccboi-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thicccboi";
+  src: url("/fonts/Thicccboi-SemiBold.woff2") format("woff2"),
+    url("/fonts/Thicccboi-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Thicccboi";
+  src: url("/fonts/Thicccboi-Medium.woff2") format("woff2"),
+    url("/fonts/Thicccboi-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
