@@ -3,6 +3,7 @@ import Phones from '../components/Phones'
 import Featured from '../components/Featured'
 import Tracks from '../components/Tracks'
 import Design from '../components/Design'
+import Characteristics from '../components/Characteristics'
 
 const Main = () => {
   return (
@@ -12,6 +13,7 @@ const Main = () => {
       <Featured />
       <Tracks />
       <Design />
+      <Characteristics />
     </>
   )
 }
