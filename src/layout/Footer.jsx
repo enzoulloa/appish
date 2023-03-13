@@ -8,9 +8,9 @@ import yellow from '../assets/images/yellowImage.jpg'
 const Footer = () => {
   return (
     <footer className=' bg-[#231656]'>
-      <div className=' flex flex-col-reverse mx-auto items-center justify-center max-w-[1100px] w-[90%] relative py-[55px]'>
-        <div className=' flex items-center justify-center flex-col-reverse mx-auto max-w-[1100px] w-full py-[35px] '>
-          <div className=' w-full flex flex-col max-w-[700px] items-start '>
+      <div className=' flex flex-col-reverse mx-auto items-center justify-center lg:max-w-[1100px] w-[90%] relative py-[55px]'>
+        <div className=' flex items-center justify-center flex-col-reverse mx-auto lg:max-w-[1100px] w-full py-[35px] '>
+          <div className=' w-full flex flex-col md:max-w-[700px] items-start '>
             <h2 className=' text-[40px] leading-[110%] text-white font-extrabold '>Stop spending time on your website and focus on your customers, with Appish.</h2>
             <div className=' flex items-center justify-center mb-[30px] mt-5 mx-auto  '>
               <a className='w-[45%] h-[60px] flex' href=''>
@@ -35,7 +35,7 @@ const Footer = () => {
           <img className='object-contain overflow-visible' src={orange} alt='' />
         </div>
       </div>
-      <div className=' mt-[50px] pb-[30px] w-[90%] flex flex-col justify-between items-center max-w-[1100px] mx-auto '>
+      <div className=' mt-[50px] pb-[30px] w-[90%] flex flex-col justify-between items-center lg:max-w-[1100px] mx-auto '>
         <p className=' text-base leading-[26px] text-white'>
           © All rights reserved.&nbsp;
           <a className=' text-white text-opacity-50' href=''>Conversasionflow</a>
