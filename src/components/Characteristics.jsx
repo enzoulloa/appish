@@ -8,7 +8,7 @@ const Characteristics = () => {
   return (
     <section className=' relative flex flex-col-reverse w-[90%] py-20 max-w-[1100px] mx-auto justify-between items-center'>
       <div className=' w-full'>
-        <h2 className=' w-[120%] text-[26px] leading-[110%] text-[#231656] font-extrabold '>Fast, scalable and fun.</h2>
+        <h2 className=' w-[100%] text-[26px] leading-[110%] text-[#231656] font-extrabold '>Fast, scalable and fun.</h2>
         <div className=' mt-[30px] w-full mx-auto'>
           <Characteristic icon={circle} title='Launch your website without any delay.' paragraph="Edit the content and hit publish! Don't wait weeks to get your site up and running!" />
           <Characteristic icon={hearth} margin=' py-[45px]' title='Tweak the template to fit your needs.' paragraph='With a style guide and utility pages, making changes and adapting the website to fit your app is easy.' />
