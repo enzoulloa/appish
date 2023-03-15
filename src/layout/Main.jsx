@@ -5,6 +5,7 @@ import Tracks from '../components/Tracks'
 import Design from '../components/Design'
 import Characteristics from '../components/Characteristics'
 import Awards from '../components/Awards'
+import Testimonials from '../components/Testimonials'
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
       <Tracks />
       <Design />
       <Characteristics />
+      <Testimonials />
       <Awards />
     </>
   )
