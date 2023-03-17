@@ -61,20 +61,20 @@ const Card = () => {
   return (
     <>
       <article className=' text-center align-top w-full h-full whitespace-normal flex flex-col justify-center items-center'>
-        <div className=' py-10 px-[8%] max-w-[620px] flex flex-col items-center justify-center mx-auto min-h-[350px] '>
+        <div className=' py-10 px-[8%] max-w-[620px] flex flex-col items-center justify-center mx-auto min-h-[350px] md:w-[75%] md:pt-[45px] md:px-[10px] md:pb-[60px]'>
           <img className=' w-[42px] h-[42px] object-contain' src={quotes} alt='Quote' />
-          <p className=' mt-[25px] text-lg leading-[140%] text-[#0f072c] '>{selectedTest.paragraph}</p>
+          <p className=' mt-[25px] text-lg leading-[140%] text-[#0f072c] md:text-[22px]'>{selectedTest.paragraph}</p>
         </div>
         <div className=' max-w-[620px] flex items-start justify-center mx-auto mt-10 '>
-          <img className='mx-[5px] w-[38px] h-[38px] rounded-full ' src={people[selectedImage4].image} alt='' />
-          <img className='mx-[5px] w-[38px] h-[38px] rounded-full' src={people[selectedImage5].image} alt='' />
-          <div className=' max-w-[80px] flex flex-col justify-center items-center mx-[5px]'>
+          <img className='mx-[5px] w-[38px] h-[38px] rounded-full md:mx-[9px]' src={people[selectedImage4].image} alt='' />
+          <img className='mx-[5px] w-[38px] h-[38px] rounded-full md:mx-[9px]' src={people[selectedImage5].image} alt='' />
+          <div className=' max-w-[80px] flex flex-col justify-center items-center mx-[5px] md:max-w-[100px] md:mx-[9px]'>
             <img className=' w-[80px] h-[80px] rounded-full' src={people[selectedImage1].image} alt='imagen' />
-            <p className='w-full mt-[10px] font-semibold text-[#0f072c] text-lg leading-[28px]'>{selectedTest.name}</p>
+            <p className='w-full mt-[10px] font-semibold text-[#0f072c] text-lg leading-[28px] md:w-[150%]'>{selectedTest.name}</p>
             <p className=' w-[220%] mt-[6px] text-[#6f6a80] text-xs leading-[18px]'>{selectedTest.company}</p>
           </div>
-          <img className='mx-[5px] w-[38px] h-[38px] rounded-full' src={people[selectedImage2].image} alt='' />
-          <img className='mx-[5px] w-[38px] h-[38px] rounded-full' src={people[selectedImage3].image} alt='' />
+          <img className='mx-[5px] w-[38px] h-[38px] rounded-full md:mx-[9px]' src={people[selectedImage2].image} alt='' />
+          <img className='mx-[5px] w-[38px] h-[38px] rounded-full md:mx-[9px]' src={people[selectedImage3].image} alt='' />
         </div>
       </article>
       <button onClick={previous} className='absolute -left-[4%] top-[30%] bottom-0 right-auto w-7 h-7 flex flex-col justify-center items-center rounded-full bg-[#0f072c] cursor-pointer text-white text-[40px]'>
