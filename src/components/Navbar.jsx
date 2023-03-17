@@ -9,8 +9,14 @@ const Navbar = () => {
             <img className='  object-contain h-full align-middle' src={logo} alt='Appish' />
           </a>
           <div className=' flex flex-row justify-between items-center'>
+            <div className='hidden lg:block'>
+              <a className='py-5 text-[#231656] text-base leading-7 align-top px-5 text-left mx-auto' href='#features'>Features</a>
+              <a className='py-5 text-[#231656] text-base leading-7 align-top px-5 text-left mx-auto' href='#fast'>Why Appish</a>
+              <a className='py-5 text-[#231656] text-base leading-7 align-top px-5 text-left mx-auto' href='#testimonials'>Testimonials</a>
+              <a className='py-5 text-[#231656] text-base leading-7 align-top px-5 text-left mx-auto' href='#awards'>Awards</a>
+            </div>
             <a className=' ml-[5px] py-[6px] px-[15px] rounded-full text-[13px] md:py-[10px] md:ml-[14px] md:px-[26px] md:text-[16px] bg-[#226cff] text-white leading-[28px] cursor-pointer font-semibold ' href='https://www.linkedin.com/in/enzo-ulloa-2639a1194/' target='_blank' rel='noreferrer'>Download Now</a>
-            <div className=' px-[10px] py-[5px] text-[#000] text-2xl cursor-pointer md:px-[18px] '>
+            <div className=' px-[10px] py-[5px] text-[#000] text-2xl cursor-pointer md:px-[18px] lg:hidden'>
               <span>
                 <svg stroke='currentColor' fill='currentColor' stroke-width='0' viewBox='0 0 512 512' height='24px' width='24px' xmlns='http://www.w3.org/2000/svg'><path fill='none' stroke-linecap='round' stroke-miterlimit='10' stroke-width='48' d='M88 152h336M88 256h336M88 360h336' /></svg>
               </span>
