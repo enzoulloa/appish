@@ -61,7 +61,7 @@ const Card = () => {
   return (
     <>
       <article className=' text-center align-top w-full h-full whitespace-normal flex flex-col justify-center items-center'>
-        <div className=' py-10 px-[8%] max-w-[620px] flex flex-col items-center justify-center mx-auto min-h-[350px] md:w-[75%] md:pt-[45px] md:px-[10px] md:pb-[60px]'>
+        <div className=' py-10 px-[8%] max-w-[620px] flex flex-col items-center justify-center mx-auto min-h-[350px] md:w-[75%] md:pt-[45px] md:px-[10px] md:pb-[60px] lg:pt-[70px]'>
           <img className=' w-[42px] h-[42px] object-contain' src={quotes} alt='Quote' />
           <p className=' mt-[25px] text-lg leading-[140%] text-[#0f072c] md:text-[22px]'>{selectedTest.paragraph}</p>
         </div>
@@ -77,10 +77,10 @@ const Card = () => {
           <img className='mx-[5px] w-[38px] h-[38px] rounded-full md:mx-[9px]' src={people[selectedImage3].image} alt='' />
         </div>
       </article>
-      <button onClick={previous} className='absolute -left-[4%] top-[30%] bottom-0 right-auto w-7 h-7 flex flex-col justify-center items-center rounded-full bg-[#0f072c] cursor-pointer text-white text-[40px]'>
+      <button onClick={previous} className='absolute -left-[4%] top-[30%] bottom-0 right-auto w-7 h-7 flex flex-col justify-center items-center rounded-full bg-[#0f072c] cursor-pointer text-white text-[40px] md:left-[3%] md:top-0 md:mt-[26%] lg:left-[10%] lg:-top-[25%] md:w-[35px] md:h-[35px]'>
         <img className=' w-[14px] h-[11px] object-contain align-middle' src={left} alt='left' />
       </button>
-      <button onClick={next} className='absolute top-[30%] -right-[4%] left-auto bottom-0 w-7 h-7 flex flex-col justify-center items-center rounded-full bg-[#0f072c] mx-auto cursor-pointer text-white text-[40px] '>
+      <button onClick={next} className='absolute top-[30%] -right-[4%] left-auto bottom-0 w-7 h-7 flex flex-col justify-center items-center rounded-full bg-[#0f072c] mx-auto cursor-pointer text-white text-[40px] md:right-[3%] md:top-0 md:mt-[26%] lg:right-[10%] lg:-top-[25%] md:w-[35px] md:h-[35px]'>
         <img className='w-[14px] h-[11px] object-contain align-middle' src={right} alt='right' />
       </button>
     </>
