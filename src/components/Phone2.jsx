@@ -1,6 +1,6 @@
 import useGetDeg from '../hooks/useGetDeg'
-import blue from '../assets/images/groupBlue.webp'
-import orange from '../assets/images/groupOrange.webp'
+import blue from '../assets/images/GroupBlue.webp'
+import orange from '../assets/images/GroupOrange.webp'
 import image from '../assets/images/Group.webp'
 
 const Phone2 = () => {
