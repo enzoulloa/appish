@@ -1,8 +1,8 @@
-import grey from '../assets/images/grey.jpg'
-import brown from '../assets/images/brown.jpg'
-import pink from '../assets/images/pink.jpg'
-import yellow from '../assets/images/yellowImage.jpg'
-import orange from '../assets/images/orange.jpg'
+import grey from '../assets/images/grey.webp'
+import brown from '../assets/images/brown.webp'
+import pink from '../assets/images/pink.webp'
+import yellow from '../assets/images/yellowImage.webp'
+import orange from '../assets/images/orange.webp'
 
 const person1 = {
   name: 'Joe Cook',

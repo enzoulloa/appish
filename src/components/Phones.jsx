@@ -1,9 +1,9 @@
 import useGetDeg from '../hooks/useGetDeg'
-import blue from '../assets/images/GroupBlue.png'
-import orange from '../assets/images/GroupOrange.png'
-import phone3 from '../assets/images/Device-1.png'
-import phone2 from '../assets/images/Devicewithshadow.png'
-import phone1 from '../assets/images/Group.png'
+import blue from '../assets/images/GroupBlue.webp'
+import orange from '../assets/images/GroupOrange.webp'
+import phone3 from '../assets/images/Device-1.webp'
+import phone2 from '../assets/images/Devicewithshadow.webp'
+import phone1 from '../assets/images/Group.webp'
 
 const Phones = () => {
   const deg = useGetDeg()

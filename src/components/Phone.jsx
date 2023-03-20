@@ -1,7 +1,7 @@
 import useGetDeg from '../hooks/useGetDeg'
-import blue from '../assets/images/groupBlue.png'
-import orange from '../assets/images/groupOrange.png'
-import image from '../assets/images/Device-1.png'
+import blue from '../assets/images/groupBlue.webp'
+import orange from '../assets/images/groupOrange.webp'
+import image from '../assets/images/Device-1.webp'
 
 const Phone = () => {
   const deg = useGetDeg()

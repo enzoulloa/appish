@@ -1,5 +1,5 @@
 import Award from './Award'
-import platinum from '../assets/images/platinum.png'
+import platinum from '../assets/images/platinum.webp'
 
 const Awards = () => {
   return (

@@ -1,10 +1,10 @@
 import { useRef, useEffect } from 'react'
 import google from '../assets/icons/GooglePlay.svg'
 import app from '../assets/icons/AppStore.svg'
-import image from '../assets/images/Devicewithshadow.png'
-import pink from '../assets/images/pink.jpg'
-import orange from '../assets/images/orange.jpg'
-import yellow from '../assets/images/yellowImage.jpg'
+import image from '../assets/images/Devicewithshadow.webp'
+import pink from '../assets/images/pink.webp'
+import orange from '../assets/images/orange.webp'
+import yellow from '../assets/images/yellowImage.webp'
 
 const Footer = () => {
   const pinkRef = useRef()
