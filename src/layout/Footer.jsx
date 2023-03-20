@@ -12,7 +12,6 @@ const Footer = () => {
   const yellowRef = useRef()
 
   const handleMove = (e) => {
-    console.log(e)
     orangeRef.current.style.transform = `translate(${e.clientY / 50}px,${e.clientX / 50}px`
     pinkRef.current.style.transform = `translate(-${e.clientY / 50}px,-${e.clientX / 50}px)`
     yellowRef.current.style.transform = `translate(${e.clientY / 50}px,${e.clientX / 50}px)`
