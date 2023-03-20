@@ -15,7 +15,7 @@ const Navbar = () => {
         <div className=' w-[90%] max-w-[1100px] mx-auto md:w-[85%]'>
           <div className=' py-[10px] pl-5 flex flex-row w-full max-w-none rounded-[73px] mx-auto bottom-auto justify-between items-center'>
             <a className=' w-[65px] h-[30px] md:w-[80px] ' href='#appish'>
-              <img className='  object-contain h-full align-middle' src={logo} alt='Appish' />
+              <img className='  object-contain h-full align-middle' src={logo} alt='Appish' loading='eager' />
             </a>
             <div className=' flex flex-row justify-between items-center'>
               <div className='hidden lg:block'>
