@@ -6,7 +6,7 @@ import squares from '../assets/icons/squares.svg'
 
 const Characteristics = () => {
   return (
-    <section className=' relative flex flex-col-reverse w-[90%] py-20 max-w-[1100px] mx-auto justify-between items-center md:w-[85%] md:py-[100px] lg:flex-row'>
+    <section id='fast' className=' relative flex flex-col-reverse w-[90%] py-20 max-w-[1100px] mx-auto justify-between items-center md:w-[85%] md:py-[100px] lg:flex-row'>
       <div className=' w-full md:w-[80%] lg:w-[42%]'>
         <h2 className=' w-[100%] text-[26px] leading-[110%] text-[#231656] font-extrabold md:w-[120%] md:text-[48px] lg:w-[110%]'>Fast, scalable and fun.</h2>
         <div className=' mt-[30px] w-full mx-auto md:w-[80%] md:mt-[40px] lg:mx-0 lg:w-full'>
