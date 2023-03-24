@@ -17,7 +17,7 @@ const Navbar = () => {
             <a className=' w-[65px] h-[30px] md:w-[80px] ' href='#appish'>
               <img className='  object-contain h-full align-middle' src={logo} alt='Appish' loading='eager' />
             </a>
-            <div className=' flex flex-row justify-between items-center'>
+            <div className=' flex flex-row justify-between items-center w-full max-w-[76%]'>
               <div className='hidden lg:block'>
                 <a className='py-5 text-[#231656] text-base leading-7 align-top px-5 text-left mx-auto' href='#features'>Features</a>
                 <a className='py-5 text-[#231656] text-base leading-7 align-top px-5 text-left mx-auto' href='#fast'>Why Appish</a>
